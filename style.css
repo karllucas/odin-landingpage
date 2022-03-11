@@ -2,22 +2,30 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     padding-top: 20px;
+    
+
 }
 
 .nav {
     list-style-type: none;
     display: flex;
-    gap: 50px;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #e5e7e7;
+    justify-content: space-around;
+    
+
+
 }
+
+
 
 main {
     display: flex;
@@ -28,7 +36,11 @@ main {
 }
 
 .content-left {
-    width: 30%;
+    width: 40%;
+}
+
+.content-right {
+    color: white;
 }
 
 h2 {
@@ -40,13 +52,16 @@ h2 {
 h1 {
     font-size: 24px;
     color: #f9faf8;
+    margin-left: 100px;
 }
 
 .cta {
     background-color: #3882f6;
     color: #f9faf8;
-    width: 100px;
-    border-radius: 50px;
+    width: 150px;
+    border-radius: 15px;
+    margin-top: 15px;
+    height: 40px;
 }
 
 .definition {
@@ -78,26 +93,37 @@ h3 {
 
 li {
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
      
 }
 
 .quote {
     background-color: #e5e7eb;
-    height: 300px;
-    font-size: 36px; 
+    height: 400px;
     display: flex;
     margin-left: 0; 
     margin-right: 0;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
     
 }
 
 .quotetext {
     text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 36px;
+    font-weight: lighter;   
 }
 
 .author {
-    text-align: end;
+    margin-left: 500px;
     margin-top: 5px;
+    font-weight: bolder;
+    font-size: 18px;    
 }
 
 .signup {
@@ -105,7 +131,7 @@ li {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    background-color: lightskyblue;
+    background-color: #3882f6;
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -116,10 +142,33 @@ li {
 
 }
 
+.left-side {
+    color: white;
+    
+}
+
+h4 {
+    font-weight: bolder;
+
+}
+
+.cta2 {
+    background-color: #3882f6;
+    color: white;
+    width: 150px;
+    border-radius: 15px;
+    margin-top: 15px;
+    height: 30px;
+    border-color: white;
+    margin-bottom: 15px;
+}
+
+   
 footer {
     height: 100px;
     background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
