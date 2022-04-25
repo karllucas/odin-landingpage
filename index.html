@@ -1,75 +1,98 @@
 <!DOCTYPE html>
 <head>
     <title>
-        
+        Angela HTML Practice
     </title>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS reset style sheet -->
+    <link rel="stylesheet" href="style.css">
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Body wrapper start-->
     <div class="body-wrapper">
-        <!-- Header Wrapper -->
-    <header class="header">
-        <!-- Logo -->
-        <div class="logo">
-            <img src="./Logo/cropped.png" alt="Logo">
-        </div>
-     <div class="space"></div>
-        <div class="nav-container">
-            <ul class="nav">
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </div>
-    </header>
-<main>
-    <div class="top-page">
-        <div class="content-left">
-            <h2>This website is awesome</h2>
-            <p class="definition">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button class="cta">Sign up</button>
-        </div>
-        <div class="content-right">
-            <div class="image-holder">
-                <img src="./Images/cover.png" alt="Cover">
+
+        <!-- Header wrapper start-->
+        <header class="header">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="./Logo/cropped.png" alt="Logo">
             </div>
-        </div>
+
+            <!-- Space between logo and menu links -->
+            <div class="space"></div>
+
+            <!-- Navigiation Links -->
+            <div class="nav-container">
+                <ul class="nav">
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </div>
+        </header>
+        <!-- Header wrapper end-->
+
+        <!-- Main top page start-->
+        <main>
+            <div class="top-page">
+                <div class="content-left">
+                    <h2>This website is awesome</h2>
+                    <p class="definition">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button class="cta">Sign up</button>
+                </div>
+                <div class="content-right">
+                    <div class="image-holder">
+                        <img src="./Images/cover.png" alt="Cover">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Main top page end-->
+
+        <!-- Section one -->
+        <section>
+            <div class="content-top">
+                <h3>Some random information</h3>
+            </div>
+            <div class="content-bottom">
+                <ul class="images">
+                <li><img >This is some subtext under an illustration or image</li>
+                <li><img>This is some subtext under an illustration or image</li>
+                <li><img>This is some subtext under an illustration or image</li>
+                <li><img>This is some subtext under an illustration or image</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section two -->
+        <section class="quote">
+            <p class="quotetext"><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.<em></p>
+            </p>
+            <p class="author">-Thor, God of Thunder </p>
+        </section>
+
+        <!-- Section three -->
+        <section class="signup">
+        <div class="left-side">
+            <h4>Call to action! It's time !</h4>
+            <p>Sign up for our product by clicking that button right over there</p>
+            </div>
+        <button class="cta2">Sign up</button>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div>
+                Copyright c The Odin Project 2021
+            </div>
+        </footer>
     </div>
-</main>
-<section>
-    <div class="content-top">
-        <h3>Some random information</h3>
-    </div>
-    <div class="content-bottom">
-        <ul class="images">
-        <li><img >This is some subtext under an illustration or image</li>
-        <li><img>This is some subtext under an illustration or image</li>
-        <li><img>This is some subtext under an illustration or image</li>
-        <li><img>This is some subtext under an illustration or image</li>
-        </ul>
-    </div>
-</section>
-<section class="quote">
-    <p class="quotetext"><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.<em></p>
-    </p>
-    <p class="author">-Thor, God of Thunder </p>
-</section>
-<section class="signup">
-   <div class="left-side">
-       <h4>Call to action! It's time !</h4>
-       <p>Sign up for our product by clicking that button right over there</p>
-    </div>
-   <button class="cta2">Sign up</button>
-</section>
-<footer>
-    <div>
-        Copyright c The Odin Project 2021
-    </div>
-</footer>
+    <!-- Body wrapper end-->
 </body>
-    </div>
 </html>
