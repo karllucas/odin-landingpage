@@ -10,7 +10,7 @@
 <p dir="auto">All work in this project is a personal project initiated by Angela Kaunda. The main purpose is for learning HTML and CSS basics. Karl Kamakia acts as a contributor and guide with aim of improving code and teaching recommended coding practices.</p>
 <div></div>
 <p align="center" dir="auto">
-  <img src="https://raw.githubusercontent.com/karllucas/odin-landingpage/main/Logo/cropped.png" alt="screenshot" style="max-width: 100%;">
+  <img src="https://raw.githubusercontent.com/karllucas/odin-landingpage/main/Logo/default.png" alt="screenshot" style="max-width: 100%;">
 </p>
 </article>
           </div>
